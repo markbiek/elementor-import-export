@@ -51,5 +51,6 @@ class Loader {
 
 	public function initCommands() {
 		\ElImEx\Commands\ElementorExportCommand::register();
+		\ElImEx\Commands\ElementorImportCommand::register();
 	}
 }
