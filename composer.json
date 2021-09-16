@@ -1,0 +1,14 @@
+{
+	"require": {
+		"jgrossi/corcel": "^5.0",
+		"vlucas/phpdotenv": "^5.3",
+		"illuminate/database": "^8.41",
+		"guzzlehttp/guzzle": "^7.3",
+		"twig/twig": "^3.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"ElImEx\\": "src/"
+		}
+	}
+}
